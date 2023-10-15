@@ -15,6 +15,11 @@
 <link href="css/mystyle.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+.banner-background {
+	clip-path: polygon(50% 0%, 100% 0, 100% 90%, 64% 100%, 24% 90%, 0 100%, 0 0);
+}
+</style>
 </head>
 <body>
 
@@ -40,8 +45,8 @@
 				<button class="btn btn-outline-light btn-lg mb-2">
 					<span class="fa fa-user-plus"></span> Start ! its Free
 				</button>
-				<a href="login_page.jsp" class="btn btn-outline-light btn-lg mb-2"> <span
-					class="fa fa-user-circle fa-spin"></span> Login
+				<a href="login-page.jsp" class="btn btn-outline-light btn-lg mb-2">
+					<span class="fa fa-user-circle fa-spin"></span> Login
 				</a><br>
 
 			</div>
@@ -50,7 +55,7 @@
 
 	<!-- cards -->
 	<div class="container mt-4">
-		<div class="row">
+		<div class="row mb=2">
 			<div class="col-md-4 mb-2">
 				<div class="card">
 					<div class="card-body">
@@ -88,8 +93,8 @@
 	</div>
 
 	<!-- cards -->
-	<div class="container mt-4">
-		<div class="row">
+	<div class="container ">
+		<div class="row mb-2">
 			<div class="col-md-4 mb-2">
 				<div class="card">
 					<div class="card-body">

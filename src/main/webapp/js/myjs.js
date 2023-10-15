@@ -1,3 +1,3 @@
-$(document).ready(function() {
-	alert("document loaded inside js folder");
-})
+//$(document).ready(function() {
+//	alert("document loaded inside js folder");
+//})
